@@ -9,7 +9,6 @@ char *qs = "?name=whtc&id=123&date=2015";
 if(query_get(qs,"name",name,32)==NULL){
 	//parser error
 }
-
 query_get(qs,"id",id,32);
 query_get(qs,"date",date,32);
 ```
